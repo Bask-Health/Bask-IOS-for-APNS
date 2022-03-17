@@ -1,110 +1,110 @@
-## 常见问题
+## common problem
 [https://day.app/2021/06/barkfaq/](https://day.app/2021/06/barkfaq/)
 
-## 问题反馈 Telegram 群
-[Bark反馈群](https://t.me/joinchat/OsCbLzovUAE0YjY1)
+## Feedback Telegram group
+[Bark Feedback Group](https://t.me/joinchat/OsCbLzovUAE0YjY1)
 
-## 发送推送
-1. 打开APP，复制测试URL 
+## send push
+1. Open the APP and copy the test URL
 
 <img src="https://wx4.sinaimg.cn/mw2000/003rYfqply1grd1meqrvcj60bi08zt9i02.jpg" width=365 />
 
-2. 修改内容，请求这个URL
-```
-可以发 get 或者 post 请求 ，请求成功会立即收到推送 
+2. Modify the content and request this URL
+````
+You can send a get or post request, and if the request is successful, you will receive the push immediately
 
-URL 组成: 第一个部分是 key , 之后有三个匹配 
-/:key/:body 
-/:key/:title/:body 
-/:key/:category/:title/:body 
+URL composition: the first part is the key , followed by three matches
+/:key/:body
+/:key/:title/:body
+/:key/:category/:title/:body
 
-title 推送标题 比 body 字号粗一点 
-body 推送内容 换行请使用换行符 '\n'
-category 另外的功能占用的字段，还没开放 忽略就行 
-post 请求 参数名也是上面这些
-```
+title push title is a bit thicker than body font size
+body Push content Please use the newline character '\n' for line breaks
+The fields occupied by other functions of the category are not open yet, just ignore them
+The post request parameter names are also the above
+````
 
-## 复制推送内容
-收到推送时下拉推送（或在通知中心左滑查看推送）有一个`复制`按钮，点击即可复制推送内容。
+## Copy push content
+When you receive a push, pull down the push (or swipe left in the notification center to view the push) and there is a `Copy` button, click to copy the push content.
 
 > <img src="http://wx4.sinaimg.cn/mw690/0060lm7Tly1g0btjhgimij30ku0a60v1.jpg" width=375 />
 
-```objc
-//将复制“验证码是9527”
-https://api.day.app/yourkey/验证码是9527
-```
+````objc
+//will copy "Verification code is 9527"
+https://api.day.app/yourkey/ verification code is 9527
+````
 
-携带参数 automaticallyCopy=1， 收到推送时，推送内容会自动复制到粘贴板（如发现不能自动复制，可尝试重启一下手机）
-```objc
-//自动复制 “验证码是9527” 到粘贴板
-https://api.day.app/yourkey/验证码是9527?automaticallyCopy=1 
-```
+Carry the parameter automaticallyCopy=1, when the push is received, the push content will be automatically copied to the pasteboard (if you find that it cannot be copied automatically, try restarting the phone)
+````objc
+//Automatically copy "The verification code is 9527" to the pasteboard
+https://api.day.app/yourkey/ verification code is 9527?automaticallyCopy=1
+````
 
 
-携带copy参数， 则上面两种复制操作，将只复制copy参数的值
-```objc
-//自动复制 “9527” 到粘贴板
-https://api.day.app/yourkey/验证码是9527?automaticallyCopy=1&copy=9527
-```
+Carry the copy parameter, the above two copy operations will only copy the value of the copy parameter
+````objc
+//Automatically copy "9527" to the pasteboard
+https://api.day.app/yourkey/ verification code is 9527?automaticallyCopy=1&copy=9527
+````
 
-## 其他参数
+## Other parameters
 
 * url
-```
-// 点击推送将跳转到url的地址（发送时，URL参数需要编码）
-https://api.day.app/yourkey/百度网址?url=https://www.baidu.com 
-```
-* isArchive
-```
-// 指定是否需要保存推送信息到历史记录，1 为保存，其他值为不保存。
-// 如果不指定这个参数，推送信息将按照APP内设置来决定是否保存。
-https://api.day.app/yourkey/需要保存的推送?isArchive=1
-```
+````
+// Clicking on push will jump to the address of the url (when sending, the URL parameters need to be encoded)
+https://api.day.app/yourkey/Baidu URL?url=https://www.baidu.com
+````
+*isArchive
+````
+// Specify whether to save the push information to the history record, 1 is to save, other values ​​are not to save.
+// If this parameter is not specified, the push information will be saved according to the settings in the APP.
+https://api.day.app/yourkey/Push to save?isArchive=1
+````
 * group
-```
-// 指定推送消息分组，可在历史记录中按分组查看推送。
-https://api.day.app/yourkey/需要分组的推送?group=groupName
-```
-* icon (仅 iOS15 或以上支持）
-```
-// 指定推送消息图标
-https://api.day.app/yourkey/需要自定义图标的推送?icon=http://day.app/assets/images/avatar.jpg
-```
-* 时效性通知
-```
-// 设置时效性通知
-https://api.day.app/yourkey/时效性通知?level=timeSensitive
+````
+// Specify the push message group, you can view the push by group in the history.
+https://api.day.app/yourkey/ needs group push?group=groupName
+````
+* icon (only supported on iOS15 or above)
+````
+// Specify the push message icon
+https://api.day.app/yourkey/requires custom icon push?icon=http://day.app/assets/images/avatar.jpg
+````
+* Timely notice
+````
+// Set up time-sensitive notifications
+https://api.day.app/yourkey/Time-sensitive notifications?level=timeSensitive
 
-// 可选参数值
-// active：不设置时的默认值，系统会立即亮屏显示通知。
-// timeSensitive：时效性通知，可在专注状态下显示通知。
-// passive：仅将通知添加到通知列表，不会亮屏提醒
-```
+// optional parameter value
+// active: The default value when not set, the system will immediately turn on the screen to display the notification.
+// timeSensitive: Time-sensitive notifications, which can be displayed in a focused state.
+// passive: only add the notification to the notification list, no screen reminder
+````
 
-## 后端代码 
+## backend code
 [bark-server](https://github.com/Finb/bark-server)
->将后端代码部署在你自己的服务器上。支持Docker
+> Deploy the backend code on your own server. Docker support
 
-## Chrome 插件
+## Chrome plugin
 [Bark-Chrome-Extension](https://github.com/xlvecle/Bark-Chrome-Extension)
->这是一款chrome插件能帮你方便地把网页上的文本或者网址推送到Bark手机端。
+> This is a chrome plug-in that can help you easily push the text or URL on the web page to the Bark mobile phone.
 
-效果展示
+Show results
 
 ![](http://wx4.sinaimg.cn/mw690/0060lm7Tly1fyaqyhzdnxg30660dcu0h.gif)
 
 
-## 在线定时发送
+## Online timing sending
 [https://api.ihint.me/bark.html](https://api.ihint.me/bark.html)
 
-## Windows推送客户端
+## Windows Push Client
 [https://github.com/HsuDan/BarkHelper](https://github.com/HsuDan/BarkHelper)
 
-## 跨平台的命令行应用
+## Cross-platform command line application
 [https://github.com/JasonkayZK/bark-cli](https://github.com/JasonkayZK/bark-cli)
 
-## Quicker 动作
-使用 Quicker 软件在 Windows 上将选中文字一键推送到iPhone，支持打开URL和自动复制推送内容
+## Quicker actions
+Use Quicker software to push selected text to iPhone on Windows with one click, support to open URL and automatically copy push content
 [https://getquicker.net/Sharedaction?code=e927d844-d212-4428-758d-08d69de12a3b](https://getquicker.net/Sharedaction?code=e927d844-d212-4428-758d-08d69de12a3b)
 
 ## Bark for Wox
