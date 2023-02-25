@@ -15,7 +15,7 @@ import UserNotifications
 class NotificationService: UNNotificationServiceExtension {
     
     lazy var realm: Realm? = {
-        let groupUrl = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.bark")
+        let groupUrl = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.health.bask.baskhealth")
         let fileUrl = groupUrl?.appendingPathComponent("bark.realm")
         let config = Realm.Configuration(
             fileURL: fileUrl,

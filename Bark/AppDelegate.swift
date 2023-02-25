@@ -12,13 +12,14 @@ import Material
 import RealmSwift
 import UIKit
 import UserNotifications
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
     var window: UIWindow?
     var syncEngine: SyncEngine?
     func setupRealm() {
-        let groupUrl = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.bark")
+        let groupUrl = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.health.bask.baskhealth")
         let fileUrl = groupUrl?.appendingPathComponent("bark.realm")
         let config = Realm.Configuration(
             fileURL: fileUrl,
@@ -49,7 +50,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // 必须在应用一开始就配置，否则应用可能提前在配置之前试用了 Realm() ，则会创建两个独立数据库。
         setupRealm()
-
+        FirebaseApp.configure()
+        
         self.window = UIWindow(frame: UIScreen.main.bounds)
         let tabBarController = StateStorageTabBarController()
         tabBarController.tabBar.tintColor = BKColor.grey.darken4

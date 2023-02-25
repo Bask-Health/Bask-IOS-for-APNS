@@ -8,7 +8,7 @@
 
 import UIKit
 
-let defaultServer = "https://api.day.app"
+let defaultServer = "https://bask.dev"
 
 class ServerManager: NSObject {
     static let shared = ServerManager()

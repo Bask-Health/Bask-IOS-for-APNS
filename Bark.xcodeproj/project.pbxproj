@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -112,9 +112,29 @@
 		06CF784C21C7A51200A052D7 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CF784B21C7A51200A052D7 /* NotificationService.swift */; };
 		06EE1FD326843E9300586708 /* BarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EE1FD226843E9300586708 /* BarkTests.swift */; };
 		06F11E7727D9D5FB00F00298 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F11E7627D9D5FB00F00298 /* QRScannerViewController.swift */; };
-		3428272069AFAFE2C683FEB0 /* libPods-Bark.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC722470308049D180876C7 /* libPods-Bark.a */; };
-		879AE4D4178855A9672009E4 /* libPods-NotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F8BDFAA047451561798F58 /* libPods-NotificationServiceExtension.a */; };
-		B963F7D5BA7AC2571E71EF66 /* libPods-BarkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76381A752CCCD4DA6BB2A566 /* libPods-BarkTests.a */; };
+		2CA10EEA43911B7ACF21591F /* libPods-BarkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 448712BCEDCEDD19204ED752 /* libPods-BarkTests.a */; };
+		961F8BB027E551530023A0E8 /* kaching.caf in Resources */ = {isa = PBXBuildFile; fileRef = 961F8BAF27E551530023A0E8 /* kaching.caf */; };
+		964E29B82811E8AD00792C7C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964E29B72811E8AD00792C7C /* WidgetKit.framework */; };
+		964E29BA2811E8AD00792C7C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964E29B92811E8AD00792C7C /* SwiftUI.framework */; };
+		964E29BD2811E8AD00792C7C /* Bask_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964E29BC2811E8AD00792C7C /* Bask_Widget.swift */; };
+		964E29C02811E8AE00792C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964E29BF2811E8AE00792C7C /* Assets.xcassets */; };
+		964E29C22811E8AE00792C7C /* Bask_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 964E29BE2811E8AD00792C7C /* Bask_Widget.intentdefinition */; };
+		964E29C32811E8AE00792C7C /* Bask_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 964E29BE2811E8AD00792C7C /* Bask_Widget.intentdefinition */; };
+		964E29C62811E8AE00792C7C /* Bask WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 964E29B62811E8AD00792C7C /* Bask WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9664819727E59D0900AC8EBB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9664819627E59D0900AC8EBB /* GoogleService-Info.plist */; };
+		9664819827E59D0900AC8EBB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9664819627E59D0900AC8EBB /* GoogleService-Info.plist */; };
+		9664819927E59D0900AC8EBB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9664819627E59D0900AC8EBB /* GoogleService-Info.plist */; };
+		9664819A27E59D0900AC8EBB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9664819627E59D0900AC8EBB /* GoogleService-Info.plist */; };
+		9664819B27E59D0900AC8EBB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9664819627E59D0900AC8EBB /* GoogleService-Info.plist */; };
+		9664819E27E59DDA00AC8EBB /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 9664819D27E59DDA00AC8EBB /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		966481A027E59DDA00AC8EBB /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9664819F27E59DDA00AC8EBB /* FirebaseDatabase */; };
+		966481A227E59DDA00AC8EBB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 966481A127E59DDA00AC8EBB /* FirebaseFirestore */; };
+		966481A427E59DDA00AC8EBB /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 966481A327E59DDA00AC8EBB /* FirebaseFunctions */; };
+		966481A627E59DDA00AC8EBB /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 966481A527E59DDA00AC8EBB /* FirebaseInAppMessaging-Beta */; };
+		966481A827E59DDA00AC8EBB /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 966481A727E59DDA00AC8EBB /* FirebaseInAppMessagingSwift-Beta */; };
+		966481AA27E59DDA00AC8EBB /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 966481A927E59DDA00AC8EBB /* FirebaseMessaging */; };
+		BFA4582E72E6134B80782DB4 /* libPods-Bark.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA31D5645E7FCFCA5553F31 /* libPods-Bark.a */; };
+		C1B51E17222484BF68962590 /* libPods-NotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E16EF2BC6076F6CFF6FA60AC /* libPods-NotificationServiceExtension.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +166,13 @@
 			remoteGlobalIDString = 0661A53E204FDA4100965E4E;
 			remoteInfo = Bark;
 		};
+		964E29C42811E8AE00792C7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0661A537204FDA4100965E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 964E29B52811E8AD00792C7C;
+			remoteInfo = "Bask WidgetExtension";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -155,6 +182,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				964E29C62811E8AE00792C7C /* Bask WidgetExtension.appex in Embed App Extensions */,
 				0632CE2A20EC9098003FDF46 /* NotificationContentExtension.appex in Embed App Extensions */,
 				066048122700550600938904 /* Intent.appex in Embed App Extensions */,
 				06CF784721C7A50300A052D7 /* NotificationServiceExtension.appex in Embed App Extensions */,
@@ -278,11 +306,20 @@
 		06F11E7627D9D5FB00F00298 /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
 		121D9B1ED4E8D26F345BC5C0 /* Pods-BarkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarkTests.release.xcconfig"; path = "Target Support Files/Pods-BarkTests/Pods-BarkTests.release.xcconfig"; sourceTree = "<group>"; };
 		138CE8CB688587E893BC5C44 /* Pods-Bark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bark.debug.xcconfig"; path = "Target Support Files/Pods-Bark/Pods-Bark.debug.xcconfig"; sourceTree = "<group>"; };
+		3DA31D5645E7FCFCA5553F31 /* libPods-Bark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bark.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		448712BCEDCEDD19204ED752 /* libPods-BarkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BarkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		519481D715B40109627E1B49 /* Pods-NotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-NotificationServiceExtension/Pods-NotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
-		76381A752CCCD4DA6BB2A566 /* libPods-BarkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BarkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		961F8BAF27E551530023A0E8 /* kaching.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kaching.caf; sourceTree = "<group>"; };
+		964E29B62811E8AD00792C7C /* Bask WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Bask WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		964E29B72811E8AD00792C7C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		964E29B92811E8AD00792C7C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		964E29BC2811E8AD00792C7C /* Bask_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bask_Widget.swift; sourceTree = "<group>"; };
+		964E29BE2811E8AD00792C7C /* Bask_Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Bask_Widget.intentdefinition; sourceTree = "<group>"; };
+		964E29BF2811E8AE00792C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		964E29C12811E8AE00792C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9664819627E59D0900AC8EBB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A69B47DA6DB3B168D5770B45 /* Pods-Bark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bark.release.xcconfig"; path = "Target Support Files/Pods-Bark/Pods-Bark.release.xcconfig"; sourceTree = "<group>"; };
-		B7F8BDFAA047451561798F58 /* libPods-NotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCC722470308049D180876C7 /* libPods-Bark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bark.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16EF2BC6076F6CFF6FA60AC /* libPods-NotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F20815A821395CCA155806A4 /* Pods-NotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-NotificationServiceExtension/Pods-NotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		FB59D77AB30F7AD98BA72C3E /* Pods-BarkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarkTests.debug.xcconfig"; path = "Target Support Files/Pods-BarkTests/Pods-BarkTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -309,8 +346,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA4582E72E6134B80782DB4 /* libPods-Bark.a in Frameworks */,
+				966481AA27E59DDA00AC8EBB /* FirebaseMessaging in Frameworks */,
 				06B1158D247BA6D5006D91FB /* CloudKit.framework in Frameworks */,
-				3428272069AFAFE2C683FEB0 /* libPods-Bark.a in Frameworks */,
+				966481A627E59DDA00AC8EBB /* FirebaseInAppMessaging-Beta in Frameworks */,
+				966481A827E59DDA00AC8EBB /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				9664819E27E59DDA00AC8EBB /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				966481A027E59DDA00AC8EBB /* FirebaseDatabase in Frameworks */,
+				966481A427E59DDA00AC8EBB /* FirebaseFunctions in Frameworks */,
+				966481A227E59DDA00AC8EBB /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +362,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				879AE4D4178855A9672009E4 /* libPods-NotificationServiceExtension.a in Frameworks */,
+				C1B51E17222484BF68962590 /* libPods-NotificationServiceExtension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +370,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B963F7D5BA7AC2571E71EF66 /* libPods-BarkTests.a in Frameworks */,
+				2CA10EEA43911B7ACF21591F /* libPods-BarkTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964E29B32811E8AD00792C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964E29BA2811E8AD00792C7C /* SwiftUI.framework in Frameworks */,
+				964E29B82811E8AD00792C7C /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +446,7 @@
 		063204EF250B6DC2001561EC /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				961F8BAF27E551530023A0E8 /* kaching.caf */,
 				06BBB8CD2567B8E60076F63E /* silence.caf */,
 				063204F3250B6DD1001561EC /* alarm.caf */,
 				063204FE250B6DD2001561EC /* anticipate.caf */,
@@ -492,6 +546,7 @@
 				06CF784121C7A50300A052D7 /* NotificationServiceExtension */,
 				06EE1FD126843E9300586708 /* BarkTests */,
 				0660480C2700550600938904 /* Intent */,
+				964E29BB2811E8AD00792C7C /* Bask Widget */,
 				0661A540204FDA4100965E4E /* Products */,
 				99BD309BDB7F62B5DC0CECE1 /* Frameworks */,
 				E9062CB15F1B70C3719578FB /* Pods */,
@@ -506,6 +561,7 @@
 				06CF784021C7A50300A052D7 /* NotificationServiceExtension.appex */,
 				06EE1FD026843E9300586708 /* BarkTests.xctest */,
 				066048092700550600938904 /* Intent.appex */,
+				964E29B62811E8AD00792C7C /* Bask WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -513,6 +569,7 @@
 		0661A541204FDA4100965E4E /* Bark */ = {
 			isa = PBXGroup;
 			children = (
+				9664819627E59D0900AC8EBB /* GoogleService-Info.plist */,
 				0683486A2050F1310024B6DA /* Bark.entitlements */,
 				0661A542204FDA4100965E4E /* AppDelegate.swift */,
 				0661A549204FDA4100965E4E /* Assets.xcassets */,
@@ -543,6 +600,17 @@
 			path = BarkTests;
 			sourceTree = "<group>";
 		};
+		964E29BB2811E8AD00792C7C /* Bask Widget */ = {
+			isa = PBXGroup;
+			children = (
+				964E29BC2811E8AD00792C7C /* Bask_Widget.swift */,
+				964E29BE2811E8AD00792C7C /* Bask_Widget.intentdefinition */,
+				964E29BF2811E8AE00792C7C /* Assets.xcassets */,
+				964E29C12811E8AE00792C7C /* Info.plist */,
+			);
+			path = "Bask Widget";
+			sourceTree = "<group>";
+		};
 		99BD309BDB7F62B5DC0CECE1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -550,9 +618,11 @@
 				0683487020510FB20024B6DA /* UserNotifications.framework */,
 				0683487220510FB20024B6DA /* UserNotificationsUI.framework */,
 				0660480A2700550600938904 /* Intents.framework */,
-				CCC722470308049D180876C7 /* libPods-Bark.a */,
-				76381A752CCCD4DA6BB2A566 /* libPods-BarkTests.a */,
-				B7F8BDFAA047451561798F58 /* libPods-NotificationServiceExtension.a */,
+				3DA31D5645E7FCFCA5553F31 /* libPods-Bark.a */,
+				448712BCEDCEDD19204ED752 /* libPods-BarkTests.a */,
+				E16EF2BC6076F6CFF6FA60AC /* libPods-NotificationServiceExtension.a */,
+				964E29B72811E8AD00792C7C /* WidgetKit.framework */,
+				964E29B92811E8AD00792C7C /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -614,9 +684,9 @@
 				96E966B1F9EF139B935A8BB1 /* [CP] Check Pods Manifest.lock */,
 				0661A53B204FDA4100965E4E /* Sources */,
 				0661A53C204FDA4100965E4E /* Frameworks */,
+				E794D950E5DEC955251857BC /* [CP] Copy Pods Resources */,
 				0661A53D204FDA4100965E4E /* Resources */,
 				0632CE2E20EC9098003FDF46 /* Embed App Extensions */,
-				330C2B4092D535691BE03E9D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -624,8 +694,18 @@
 				0632CE2920EC9098003FDF46 /* PBXTargetDependency */,
 				06CF784621C7A50300A052D7 /* PBXTargetDependency */,
 				066048112700550600938904 /* PBXTargetDependency */,
+				964E29C52811E8AE00792C7C /* PBXTargetDependency */,
 			);
 			name = Bark;
+			packageProductDependencies = (
+				9664819D27E59DDA00AC8EBB /* FirebaseAnalyticsWithoutAdIdSupport */,
+				9664819F27E59DDA00AC8EBB /* FirebaseDatabase */,
+				966481A127E59DDA00AC8EBB /* FirebaseFirestore */,
+				966481A327E59DDA00AC8EBB /* FirebaseFunctions */,
+				966481A527E59DDA00AC8EBB /* FirebaseInAppMessaging-Beta */,
+				966481A727E59DDA00AC8EBB /* FirebaseInAppMessagingSwift-Beta */,
+				966481A927E59DDA00AC8EBB /* FirebaseMessaging */,
+			);
 			productName = Bark;
 			productReference = 0661A53F204FDA4100965E4E /* Bark.app */;
 			productType = "com.apple.product-type.application";
@@ -667,27 +747,44 @@
 			productReference = 06EE1FD026843E9300586708 /* BarkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		964E29B52811E8AD00792C7C /* Bask WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964E29C92811E8AE00792C7C /* Build configuration list for PBXNativeTarget "Bask WidgetExtension" */;
+			buildPhases = (
+				964E29B22811E8AD00792C7C /* Sources */,
+				964E29B32811E8AD00792C7C /* Frameworks */,
+				964E29B42811E8AD00792C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bask WidgetExtension";
+			productName = "Bask WidgetExtension";
+			productReference = 964E29B62811E8AD00792C7C /* Bask WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0661A537204FDA4100965E4E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
 				ORGANIZATIONNAME = Fin;
 				TargetAttributes = {
 					0632CE1D20EC9098003FDF46 = {
 						CreatedOnToolsVersion = 9.3;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					066048082700550600938904 = {
 						CreatedOnToolsVersion = 13.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					0661A53E204FDA4100965E4E = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -696,12 +793,15 @@
 					};
 					06CF783F21C7A50300A052D7 = {
 						CreatedOnToolsVersion = 10.1;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					06EE1FCF26843E9300586708 = {
 						CreatedOnToolsVersion = 12.5;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 0661A53E204FDA4100965E4E;
+					};
+					964E29B52811E8AD00792C7C = {
+						CreatedOnToolsVersion = 13.3;
 					};
 				};
 			};
@@ -715,6 +815,9 @@
 				"zh-Hans",
 			);
 			mainGroup = 0661A536204FDA4100965E4E;
+			packageReferences = (
+				9664819C27E59DDA00AC8EBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 0661A540204FDA4100965E4E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -724,6 +827,7 @@
 				06CF783F21C7A50300A052D7 /* NotificationServiceExtension */,
 				06EE1FCF26843E9300586708 /* BarkTests */,
 				066048082700550600938904 /* Intent */,
+				964E29B52811E8AD00792C7C /* Bask WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -734,6 +838,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06802E5320ECC40C00767047 /* Assets.xcassets in Resources */,
+				9664819827E59D0900AC8EBB /* GoogleService-Info.plist in Resources */,
 				065A4D4220EE1A31002EB2DB /* Localizable.strings in Resources */,
 				0632CE2620EC9098003FDF46 /* MainInterface.storyboard in Resources */,
 			);
@@ -743,6 +848,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9664819B27E59D0900AC8EBB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -756,6 +862,7 @@
 				06320521250B6DD4001561EC /* multiwayinvitation.caf in Resources */,
 				06BBB8CE2567B8E60076F63E /* silence.caf in Resources */,
 				06320528250B6DD4001561EC /* chime.caf in Resources */,
+				9664819727E59D0900AC8EBB /* GoogleService-Info.plist in Resources */,
 				06320510250B6DD4001561EC /* paymentsuccess.caf in Resources */,
 				06320527250B6DD4001561EC /* noir.caf in Resources */,
 				06320520250B6DD4001561EC /* telegraph.caf in Resources */,
@@ -770,6 +877,7 @@
 				06320522250B6DD4001561EC /* newmail.caf in Resources */,
 				0661A54D204FDA4100965E4E /* LaunchScreen.storyboard in Resources */,
 				0632051E250B6DD4001561EC /* choo.caf in Resources */,
+				961F8BB027E551530023A0E8 /* kaching.caf in Resources */,
 				06320516250B6DD4001561EC /* calypso.caf in Resources */,
 				0632052D250B6DD4001561EC /* newsflash.caf in Resources */,
 				06320514250B6DD4001561EC /* sherwoodforest.caf in Resources */,
@@ -792,6 +900,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9664819927E59D0900AC8EBB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -799,6 +908,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9664819A27E59D0900AC8EBB /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964E29B42811E8AD00792C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964E29C02811E8AE00792C7C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -827,7 +945,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		330C2B4092D535691BE03E9D /* [CP] Copy Pods Resources */ = {
+		96E966B1F9EF139B935A8BB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bark-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E794D950E5DEC955251857BC /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -851,28 +991,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bark/Pods-Bark-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		96E966B1F9EF139B935A8BB1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Bark-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FFCCE5E170E29FF10836E9C0 /* [CP] Check Pods Manifest.lock */ = {
@@ -961,6 +1079,7 @@
 				062B98C3251B2762004562E7 /* BKButton.swift in Sources */,
 				06885EB6247FB9880004A303 /* MessageSettingsViewController.swift in Sources */,
 				06F11E7727D9D5FB00F00298 /* QRScannerViewController.swift in Sources */,
+				964E29C32811E8AE00792C7C /* Bask_Widget.intentdefinition in Sources */,
 				06C5952D2480E3F8006B98F3 /* LabelCell.swift in Sources */,
 				0637FA7C20E0930E00E80174 /* BarkApi.swift in Sources */,
 				06C2CF252685BDB80034B127 /* SpacerCell.swift in Sources */,
@@ -995,6 +1114,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		964E29B22811E8AD00792C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964E29BD2811E8AD00792C7C /* Bask_Widget.swift in Sources */,
+				964E29C22811E8AE00792C7C /* Bask_Widget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1017,6 +1145,11 @@
 			isa = PBXTargetDependency;
 			target = 0661A53E204FDA4100965E4E /* Bark */;
 			targetProxy = 06EE1FD526843E9300586708 /* PBXContainerItemProxy */;
+		};
+		964E29C52811E8AE00792C7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 964E29B52811E8AD00792C7C /* Bask WidgetExtension */;
+			targetProxy = 964E29C42811E8AE00792C7C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1053,17 +1186,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5U8LBRXG3A;
+				DEVELOPMENT_TEAM = WTCD64FAVU;
 				INFOPLIST_FILE = NotificationContentExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.fin.bark.NotificationContent;
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.bark.app.NotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development me.fin.bark.NotificationContent";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1074,17 +1211,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5U8LBRXG3A;
+				DEVELOPMENT_TEAM = WTCD64FAVU;
 				INFOPLIST_FILE = NotificationContentExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.fin.bark.NotificationContent;
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.bark.app.NotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore me.fin.bark.NotificationContent";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1097,22 +1238,26 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5U8LBRXG3A;
+				DEVELOPMENT_TEAM = WTCD64FAVU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Intent/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Intent;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Fin. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = me.fin.bark.Intent;
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.bark.app.Intent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development me.fin.bark.Intent";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1126,21 +1271,25 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5U8LBRXG3A;
+				DEVELOPMENT_TEAM = WTCD64FAVU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Intent/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Intent;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Fin. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = me.fin.bark.Intent;
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.bark.app.Intent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore me.fin.bark.Intent";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1174,6 +1323,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1199,7 +1349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1234,6 +1384,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1253,10 +1404,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1265,19 +1417,24 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 138CE8CB688587E893BC5C44 /* Pods-Bark.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = Bark/Bark.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5U8LBRXG3A;
+				DEVELOPMENT_TEAM = WTCD64FAVU;
 				INFOPLIST_FILE = Bark/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.fin.bark;
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.bark.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development me.fin.bark";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1287,19 +1444,24 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A69B47DA6DB3B168D5770B45 /* Pods-Bark.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = Bark/Bark.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5U8LBRXG3A;
+				DEVELOPMENT_TEAM = WTCD64FAVU;
 				INFOPLIST_FILE = Bark/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.fin.bark;
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.bark.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore me.fin.bark";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1311,19 +1473,23 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = NotificationServiceExtension/NotificationServiceExtension.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5U8LBRXG3A;
+				DEVELOPMENT_TEAM = WTCD64FAVU;
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = me.fin.bark.NotificationServiceExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.bark.app.NotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development me.fin.bark.NotificationServiceExtension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1336,18 +1502,22 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = NotificationServiceExtension/NotificationServiceExtension.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5U8LBRXG3A;
+				DEVELOPMENT_TEAM = WTCD64FAVU;
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MARKETING_VERSION = 1.0.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = me.fin.bark.NotificationServiceExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.bark.app.NotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore me.fin.bark.NotificationServiceExtension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1363,10 +1533,14 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5U8LBRXG3A;
+				DEVELOPMENT_TEAM = WTCD64FAVU;
 				INFOPLIST_FILE = BarkTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = me.fin.BarkTests;
@@ -1388,10 +1562,14 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5U8LBRXG3A;
+				DEVELOPMENT_TEAM = WTCD64FAVU;
 				INFOPLIST_FILE = BarkTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = me.fin.BarkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1400,6 +1578,71 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bark.app/Bark";
+			};
+			name = Release;
+		};
+		964E29C72811E8AE00792C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WTCD64FAVU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bask Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bask Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Fin. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bark.app.Bask-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		964E29C82811E8AE00792C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WTCD64FAVU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bask Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bask Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Fin. All rights reserved.";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud.bark.app.Bask-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1460,7 +1703,65 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		964E29C92811E8AE00792C7C /* Build configuration list for PBXNativeTarget "Bask WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964E29C72811E8AE00792C7C /* Debug */,
+				964E29C82811E8AE00792C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9664819C27E59DDA00AC8EBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9664819D27E59DDA00AC8EBB /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9664819C27E59DDA00AC8EBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		9664819F27E59DDA00AC8EBB /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9664819C27E59DDA00AC8EBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		966481A127E59DDA00AC8EBB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9664819C27E59DDA00AC8EBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		966481A327E59DDA00AC8EBB /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9664819C27E59DDA00AC8EBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		966481A527E59DDA00AC8EBB /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9664819C27E59DDA00AC8EBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		966481A727E59DDA00AC8EBB /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9664819C27E59DDA00AC8EBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		966481A927E59DDA00AC8EBB /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9664819C27E59DDA00AC8EBB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0661A537204FDA4100965E4E /* Project object */;
 }
