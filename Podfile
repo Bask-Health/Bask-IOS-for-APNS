@@ -23,7 +23,6 @@ def pods
     pod 'NSObject+Rx'
     
     pod 'MJRefresh'
-    pod 'Kingfisher'
     pod 'MercariQRScanner', :git => 'https://github.com/Finb/QRScanner'
 end
 
@@ -39,6 +38,5 @@ end
 
 target 'NotificationServiceExtension' do
     pod 'IceCream'
-    pod 'Kingfisher'
 end
 

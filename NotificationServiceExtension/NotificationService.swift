@@ -7,7 +7,6 @@
 //
 
 import Intents
-import Kingfisher
 import MobileCoreServices
 import RealmSwift
 import UIKit
@@ -100,14 +99,6 @@ class NotificationService: UNNotificationServiceExtension {
     /// 使用 Kingfisher.ImageDownloader 下载图片
     /// - Parameter url: 下载的图片URL
     /// - Returns: 返回 Result
-    func downloadImage(url: URL) async -> Result<ImageLoadingResult, KingfisherError> {
-        return await withCheckedContinuation { continuation in
-            Kingfisher.ImageDownloader.default.downloadImage(with: url, options: nil) { result in
-                continuation.resume(returning: result)
-            }
-        }
-    }
-   
     /// 下载推送图片
     /// - Parameter imageUrl: 图片URL字符串
     /// - Returns: 保存在本地中的`图片 File URL`

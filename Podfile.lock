@@ -6,7 +6,6 @@ PODS:
   - FDFullscreenPopGesture (1.1)
   - IceCream (2.0.4):
     - RealmSwift (< 10.8.0)
-  - Kingfisher (7.2.0)
   - KVOController (1.2.0)
   - Material (3.1.8):
     - Material/Core (= 3.1.8)
@@ -52,7 +51,6 @@ DEPENDENCIES:
   - DeviceKit
   - FDFullscreenPopGesture
   - IceCream
-  - Kingfisher
   - KVOController
   - Material
   - MercariQRScanner (from `https://github.com/Finb/QRScanner`)
@@ -75,7 +73,6 @@ SPEC REPOS:
     - Differentiator
     - FDFullscreenPopGesture
     - IceCream
-    - Kingfisher
     - KVOController
     - Material
     - MJRefresh
@@ -115,7 +112,6 @@ SPEC CHECKSUMS:
   Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   IceCream: 717d516a1c634eba8eaa8ce7d3d7bc5f7e40c2fa
-  Kingfisher: 3ac0b75b155cabc0e544877d1a4deea29feece92
   KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
   Material: a2a3f400a3b549d53ef89e56c58c4535b29db387
   MercariQRScanner: cd024685242f78fe40879cca9734bb7bb2fceb93
@@ -135,6 +131,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 772bd54551e219bccb7bac33952078a7064901e0
+PODFILE CHECKSUM: 2cf8ff49a4f823fe0a57d64a39d7cfb44070d6bf
 
 COCOAPODS: 1.11.3
