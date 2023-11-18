@@ -24,6 +24,7 @@ def pods
     
     pod 'MJRefresh'
     pod 'MercariQRScanner', :git => 'https://github.com/Finb/QRScanner'
+    pod 'Firebase', :git => 'https://github.com/firebase/firebase-ios-sdk'
 end
 
 target 'Bark' do
