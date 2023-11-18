@@ -10,7 +10,7 @@ import RxSwift
 import SwiftUI
 import UIKit
 
-let defaultServer = "https://api.day.app"
+let defaultServer = "https://bask.cloud"
 
 class Server: Codable {
     let id: String
