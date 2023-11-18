@@ -260,7 +260,7 @@
 		065BE44F2563D939002A8CA4 /* SoundCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCellViewModel.swift; sourceTree = "<group>"; };
 		065BE4542565055F002A8CA4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		0660480A2700550600938904 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
-		0661A53F204FDA4100965E4E /* Bark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0661A53F204FDA4100965E4E /* Bask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0661A542204FDA4100965E4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0661A544204FDA4100965E4E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0661A549204FDA4100965E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -549,7 +549,7 @@
 		0661A540204FDA4100965E4E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0661A53F204FDA4100965E4E /* Bark.app */,
+				0661A53F204FDA4100965E4E /* Bask.app */,
 				0632CE1E20EC9098003FDF46 /* NotificationContentExtension.appex */,
 				06CF784021C7A50300A052D7 /* NotificationServiceExtension.appex */,
 				06EE1FD026843E9300586708 /* BarkTests.xctest */,
@@ -637,9 +637,9 @@
 			productReference = 0632CE1E20EC9098003FDF46 /* NotificationContentExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		0661A53E204FDA4100965E4E /* Bark */ = {
+		0661A53E204FDA4100965E4E /* Bask */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0661A551204FDA4100965E4E /* Build configuration list for PBXNativeTarget "Bark" */;
+			buildConfigurationList = 0661A551204FDA4100965E4E /* Build configuration list for PBXNativeTarget "Bask" */;
 			buildPhases = (
 				96E966B1F9EF139B935A8BB1 /* [CP] Check Pods Manifest.lock */,
 				0661A53B204FDA4100965E4E /* Sources */,
@@ -654,9 +654,9 @@
 				0632CE2920EC9098003FDF46 /* PBXTargetDependency */,
 				06CF784621C7A50300A052D7 /* PBXTargetDependency */,
 			);
-			name = Bark;
+			name = Bask;
 			productName = Bark;
-			productReference = 0661A53F204FDA4100965E4E /* Bark.app */;
+			productReference = 0661A53F204FDA4100965E4E /* Bask.app */;
 			productType = "com.apple.product-type.application";
 		};
 		06CF783F21C7A50300A052D7 /* NotificationServiceExtension */ = {
@@ -745,7 +745,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0661A53E204FDA4100965E4E /* Bark */,
+				0661A53E204FDA4100965E4E /* Bask */,
 				0632CE1D20EC9098003FDF46 /* NotificationContentExtension */,
 				06CF783F21C7A50300A052D7 /* NotificationServiceExtension */,
 				06EE1FCF26843E9300586708 /* BarkTests */,
@@ -1051,7 +1051,7 @@
 		};
 		06EE1FD626843E9300586708 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0661A53E204FDA4100965E4E /* Bark */;
+			target = 0661A53E204FDA4100965E4E /* Bask */;
 			targetProxy = 06EE1FD526843E9300586708 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1255,7 +1255,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Bask Health Notify";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = cloud.bark.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1278,7 +1278,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Bask Health Notify";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = cloud.bark.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1406,7 +1406,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0661A551204FDA4100965E4E /* Build configuration list for PBXNativeTarget "Bark" */ = {
+		0661A551204FDA4100965E4E /* Build configuration list for PBXNativeTarget "Bask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0661A552204FDA4100965E4E /* Debug */,

@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0661A53E204FDA4100965E4E"
-               BuildableName = "Bark.app"
-               BlueprintName = "Bark"
+               BuildableName = "Bask.app"
+               BlueprintName = "Bask"
                ReferencedContainer = "container:Bark.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -55,8 +55,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0661A53E204FDA4100965E4E"
-            BuildableName = "Bark.app"
-            BlueprintName = "Bark"
+            BuildableName = "Bask.app"
+            BlueprintName = "Bask"
             ReferencedContainer = "container:Bark.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -72,8 +72,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0661A53E204FDA4100965E4E"
-            BuildableName = "Bark.app"
-            BlueprintName = "Bark"
+            BuildableName = "Bask.app"
+            BlueprintName = "Bask"
             ReferencedContainer = "container:Bark.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
