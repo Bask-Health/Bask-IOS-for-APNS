@@ -139,6 +139,7 @@
 		06F11E7727D9D5FB00F00298 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F11E7627D9D5FB00F00298 /* QRScannerViewController.swift */; };
 		3428272069AFAFE2C683FEB0 /* libPods-Bark.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC722470308049D180876C7 /* libPods-Bark.a */; };
 		879AE4D4178855A9672009E4 /* libPods-NotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F8BDFAA047451561798F58 /* libPods-NotificationServiceExtension.a */; };
+		96FC46492B08962600D35258 /* kaching.caf in Resources */ = {isa = PBXBuildFile; fileRef = 96FC46482B08962600D35258 /* kaching.caf */; };
 		B963F7D5BA7AC2571E71EF66 /* libPods-BarkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76381A752CCCD4DA6BB2A566 /* libPods-BarkTests.a */; };
 /* End PBXBuildFile section */
 
@@ -317,6 +318,8 @@
 		138CE8CB688587E893BC5C44 /* Pods-Bark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bark.debug.xcconfig"; path = "Target Support Files/Pods-Bark/Pods-Bark.debug.xcconfig"; sourceTree = "<group>"; };
 		519481D715B40109627E1B49 /* Pods-NotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-NotificationServiceExtension/Pods-NotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
 		76381A752CCCD4DA6BB2A566 /* libPods-BarkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BarkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FC46472B08958E00D35258 /* kaching.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = kaching.caf; path = ../../../Bark/Sounds/kaching.caf; sourceTree = "<group>"; };
+		96FC46482B08962600D35258 /* kaching.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = kaching.caf; path = ../../../Bark/Sounds/kaching.caf; sourceTree = "<group>"; };
 		A69B47DA6DB3B168D5770B45 /* Pods-Bark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bark.release.xcconfig"; path = "Target Support Files/Pods-Bark/Pods-Bark.release.xcconfig"; sourceTree = "<group>"; };
 		B7F8BDFAA047451561798F58 /* libPods-NotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC722470308049D180876C7 /* libPods-Bark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bark.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -450,12 +453,14 @@
 				063204F7250B6DD2001561EC /* calypso.caf */,
 				06320509250B6DD4001561EC /* chime.caf */,
 				063204FF250B6DD3001561EC /* choo.caf */,
+				96FC46482B08962600D35258 /* kaching.caf */,
 				063204F8250B6DD2001561EC /* descent.caf */,
 				0632050B250B6DD4001561EC /* electronic.caf */,
 				063204FB250B6DD2001561EC /* fanfare.caf */,
 				06320500250B6DD3001561EC /* glass.caf */,
 				063204F0250B6DD1001561EC /* gotosleep.caf */,
 				063204F6250B6DD2001561EC /* healthnotification.caf */,
+				96FC46472B08958E00D35258 /* kaching.caf */,
 				0632050D250B6DD4001561EC /* horn.caf */,
 				063204F9250B6DD2001561EC /* ladder.caf */,
 				06320507250B6DD3001561EC /* mailsent.caf */,
@@ -779,6 +784,7 @@
 				06320511250B6DD4001561EC /* shake.caf in Resources */,
 				06320513250B6DD4001561EC /* bloom.caf in Resources */,
 				0632050F250B6DD4001561EC /* gotosleep.caf in Resources */,
+				96FC46492B08962600D35258 /* kaching.caf in Resources */,
 				06320512250B6DD4001561EC /* alarm.caf in Resources */,
 				06320522250B6DD4001561EC /* newmail.caf in Resources */,
 				0661A54D204FDA4100965E4E /* LaunchScreen.storyboard in Resources */,

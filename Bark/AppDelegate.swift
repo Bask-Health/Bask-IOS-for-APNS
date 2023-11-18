@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     var window: UIWindow?
     var syncEngine: SyncEngine?
     func setupRealm() {
-        let groupUrl = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.bark")
+        let groupUrl = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.health.bask.baskhealth")
         let fileUrl = groupUrl?.appendingPathComponent("bark.realm")
         let config = Realm.Configuration(
             fileURL: fileUrl,
